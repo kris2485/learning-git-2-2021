@@ -4,3 +4,21 @@ $color-two: #2B2B2B;
 $color-three: #D6D2CA;
 $color-four: #E86343;
 $transition: all 1s;
+/* Global */
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+section {
+    padding-top: 50px;
+}
